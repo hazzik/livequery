@@ -57,5 +57,16 @@
   ],
   "bugs": {
     "url": "https://github.com/hazzik/livequery/issues"
-  }
+  },
+  "contributors": [
+    "Alexander I. Zaytsev <hazzik@gmail.com>",
+    "Brandon Aaron <brandon.aaron@gmail.com>",
+    "Alexander I. Zaytsev <hazzik@users.noreply.github.com>",
+    "brandonaaron <brandon.aaron@gmail.com>",
+    "sergeyt <stodyshev@gmail.com>",
+    "Alexander Zaytsev <alexander.zaytsev@doneright.ru>",
+    "Alexander Zaytsev <hazzik@gmail.com>",
+    "Tianon Gravi <admwiggin@gmail.com>",
+    "Whoahbot <whoahbot@gmail.com>"
+  ]
 }
