@@ -196,7 +196,7 @@ $.extend($jQlq, {
 });
 
 // Register core DOM manipulation methods
-$jQlq.registerPlugin('append', 'prepend', 'after', 'before', 'wrap', 'attr', 'removeAttr', 'addClass', 'removeClass', 'toggleClass', 'empty', 'remove', 'html', 'prop', 'removeProp');
+$jQlq.registerPlugin('show', 'append', 'prepend', 'after', 'before', 'wrap', 'attr', 'removeAttr', 'addClass', 'removeClass', 'toggleClass', 'empty', 'remove', 'html', 'prop', 'removeProp');
 
 // Run Live Queries when the Document is ready
 $(function() { $jQlq.play(); });
