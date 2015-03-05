@@ -182,7 +182,7 @@ $.extend($jQlq, {
 		// Clear timeout if it already exists
 		if ($jQlq.timeout) clearTimeout($jQlq.timeout);
 		// Create a timeout to check the queue and actually run the Live Queries
-		$jQlq.timeout = setTimeout($jQlq.checkQueue, 200);
+		$jQlq.timeout = setTimeout($jQlq.checkQueue, 50);
 	},
 
 	stop: function(id) {
