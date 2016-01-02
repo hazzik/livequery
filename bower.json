@@ -29,6 +29,9 @@
   "dependencies": {
     "jquery": ">=1.3"
   },
+  "main": [
+    "./dist/jquery.livequery"
+  ],
   "ignore": [
     "**/.*",
     "node_modules",
