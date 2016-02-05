@@ -48,7 +48,18 @@ module.exports = function(grunt) {
     watch: {
       files: ['<%= jshint.files %>'],
       tasks: ['jshint', 'qunit']
-    }
+    },
+	'npm-contributors': {
+		options: {
+			commitMessage: 'chore: update contributors'
+		}
+	},
+	bump: {
+		options: {
+			commitMessage: 'chore: release v%VERSION%',
+			pushTo: 'origin'
+		}
+	}
   });
 
   grunt.loadNpmTasks('grunt-contrib-uglify');
@@ -56,9 +67,14 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-qunit');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-concat');
+  grunt.loadNpmTasks('grunt-npm');
+  grunt.loadNpmTasks('grunt-bump');
 
   grunt.registerTask('test', ['jshint', 'qunit']);
 
   grunt.registerTask('default', ['jshint', 'qunit', 'concat', 'uglify']);
 
+  grunt.registerTask('release', 'Bump the version and publish to NPM.', function(type) {
+	grunt.task.run(['npm-contributors', "bump:#{type||'patch'}", 'npm-publish']);
+  });
 };

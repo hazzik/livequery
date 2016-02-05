@@ -1,0 +1,8 @@
+{
+  "name": "livequery",
+  "description": "Live Query utilizes the power of jQuery selectors by firing callbacks for matched elements auto-magically, even after the page has been loaded and the DOM updated.",
+  "homepage": "https://github.com/sergeyt/livequery",
+  "author": "Brandon Aaron, Alexander Zaytsev",
+  "version": "1.3.7",
+  "git": "https://github.com/sergeyt/livequery.git"
+}
