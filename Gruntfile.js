@@ -7,7 +7,7 @@ module.exports = function(grunt) {
         '<%= pkg.homepage ? " * " + pkg.homepage + "\\n" : "" %>' +
         ' * Copyright (c)\n' +
         ' *  (c) 2010, Brandon Aaron (http://brandonaaron.net)\n' +
-        ' *  (c) 2012 - 2013, Alexander Zaytsev (http://hazzik.ru/en)\n' +
+        ' *  (c) 2012 - 2016, Alexander Zaytsev (https://alexzaytsev.me)\n' +
         ' * Dual licensed under the MIT (MIT_LICENSE.txt)\n' +
         ' * and GPL Version 2 (GPL_LICENSE.txt) licenses.\n' +
         ' */\n',

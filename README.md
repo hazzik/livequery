@@ -72,4 +72,4 @@ You can register several plugin methods at once by just passing them as addition
 The Live Query plugin is dual licensed *(just like jQuery)* under the MIT (MIT\_LICENSE.txt) and GPL Version 2 (GPL\_LICENSE.txt) licenses.
 
 Copyright (c) 2010 [Brandon Aaron](http://brandonaaron.net)
-          (c) 2012 [Alexander Zaytsev](http://hazzik.ru/en)
+          (c) 2012 - 2016 [Alexander Zaytsev](https://alexzaytsev.me)

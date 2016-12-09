@@ -9,9 +9,9 @@
   },
   "maintainers": [
     {
-      "name": "Alexander I. Zaytsev",
+      "name": "Alexander Zaytsev",
       "email": "hazzik@gmail.com",
-      "url": "http://hazzik.ru"
+      "url": "https://alexzaytsev.me"
     }
   ],
   "description": "Live Query utilizes the power of jQuery selectors by firing callbacks for matched elements auto-magically, even after the page has been loaded and the DOM updated.",

@@ -1,7 +1,7 @@
-/*! jquery.livequery - v1.3.6 - 2013-08-26
+/*! jquery.livequery - v1.3.6 - 2016-12-09
  * Copyright (c)
  *  (c) 2010, Brandon Aaron (http://brandonaaron.net)
- *  (c) 2012 - 2013, Alexander Zaytsev (http://hazzik.ru/en)
+ *  (c) 2012 - 2016, Alexander Zaytsev (https://alexzaytsev.me)
  * Dual licensed under the MIT (MIT_LICENSE.txt)
  * and GPL Version 2 (GPL_LICENSE.txt) licenses.
  */
