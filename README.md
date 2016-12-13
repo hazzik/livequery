@@ -1,5 +1,6 @@
 # Live Query
 [![Build Status](https://travis-ci.org/hazzik/livequery.png?branch=master)](https://travis-ci.org/hazzik/livequery)
+[![CDNJS](https://img.shields.io/cdnjs/v/hazzik-jquery.livequery.svg)](https://cdnjs.com/libraries/hazzik-jquery.livequery)
 
 Live Query utilizes the power of jQuery selectors by firing callbacks for matched elements auto-magically, even after the page has been loaded and the DOM updated.
 
