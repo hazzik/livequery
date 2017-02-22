@@ -16,7 +16,7 @@ function _match(me, query, fn, fn2) {
 }
 
 $.extend($.fn, {
-	livequery: function(fn, fn2) {
+	livequery: function(selector, context, fn, fn2) {
 		var me = this, q;
 
 		// See if Live Query already exists
@@ -27,7 +27,7 @@ $.extend($.fn, {
 		});
 
 		// Create new Live Query if it wasn't found
-		q = q || new $jQlq(me.selector, me.context, fn, fn2);
+		q = q || new $jQlq(selector, context, fn, fn2);
 
 		// Make sure it is running
 		q.stopped = false;
