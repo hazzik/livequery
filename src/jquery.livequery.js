@@ -182,7 +182,7 @@ $.extend($jQlq, {
 		// Clear timeout if it already exists
 		if ($jQlq.timeout) clearTimeout($jQlq.timeout);
 		// Create a timeout to check the queue and actually run the Live Queries
-		$jQlq.timeout = setTimeout($jQlq.checkQueue, 20);
+		$jQlq.timeout = setTimeout($jQlq.checkQueue, 50);
 	},
 
 	stop: function(id) {
@@ -196,7 +196,7 @@ $.extend($jQlq, {
 });
 
 // Register core DOM manipulation methods
-$jQlq.registerPlugin('append', 'prepend', 'after', 'before', 'wrap', 'attr', 'removeAttr', 'addClass', 'removeClass', 'toggleClass', 'empty', 'remove', 'html', 'prop', 'removeProp');
+$jQlq.registerPlugin('show', 'append', 'prepend', 'after', 'before', 'wrap', 'attr', 'removeAttr', 'addClass', 'removeClass', 'toggleClass', 'empty', 'remove', 'html', 'prop', 'removeProp');
 
 // Run Live Queries when the Document is ready
 $(function() { $jQlq.play(); });
